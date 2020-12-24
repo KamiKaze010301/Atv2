@@ -60,6 +60,7 @@ public class Main {
 		
 	}
 	
+// LOGIN DO OPERADOR DE SISTEMA
 	static void loginOPS() {
 		int escolha;
 		String login;
@@ -80,6 +81,8 @@ public class Main {
 		
 	}
 	
+	
+// MENU DO GERENTE	
 	static void menuGerente() {
 		
 		Scanner scan = new Scanner(System.in);
@@ -93,6 +96,7 @@ public class Main {
 			System.out.println("4 – Listar Produtos");
 			System.out.println("5 – Listar Clientes");
 			System.out.println("6 – Listar Operadores");
+			System.out.println("7 – Procurar produto");
 			System.out.println("8 – Procurar Cliente");
 			System.out.println("9 – Procurar Operador");
 			System.out.println("10 – Sair");
@@ -135,7 +139,7 @@ public class Main {
 	        }	
 	}
 	
-	
+// MENU DO OPERADOR DE SISTEMA	
 	static void menuOPS() {
 		
 		Scanner scan = new Scanner(System.in);
@@ -174,6 +178,7 @@ public class Main {
 				}	
 	}
 	
+// SAIDAS 
 	static void saida() {
 		telaInicial();
 		
