@@ -101,31 +101,31 @@ public class Main {
 			
 				switch (escolha){ 
 	            case 1: 
-	                
+	                menuGerente();
 	                break;
 	            case 2: 
-	                
+	            	menuGerente();
 	                break;
 	            case 3: 
-	                
+	            	menuGerente();
 	                break;
 	            case 4: 
-	                
+	            	menuGerente();
 	                break;
 				case 5: 
-	    
+					menuGerente();
 	    			break;
 				case 6: 
-				    
+					menuGerente();
 	    			break; 
 				case 7: 
-				    
+					menuGerente();
 	    			break; 
 				case 8: 
-				    
+					menuGerente();
 	    			break;
 				case 9: 
-				    
+					menuGerente();
 	    			break; 
 				case 10: 
 					saida();
@@ -153,19 +153,19 @@ public class Main {
 			
 				switch (escolha){ 
 	            case 1: 
-	                
+	            	menuOPS();
 	                break;
 	            case 2: 
-	                
+	            	menuOPS();
 	                break;
 	            case 3: 
-	                
+	            	menuOPS();
 	                break;
 	            case 4: 
-	                
+	            	menuOPS();
 	                break;
 				case 5: 
-	    
+					menuOPS();
 	    			break;
 				case 6: 
 					saida();
